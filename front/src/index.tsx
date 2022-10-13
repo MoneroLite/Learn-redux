@@ -22,7 +22,7 @@ const reducer = (state = defStatus, action: any) => {
       return state;
   }
 };
-//
+
 const store = createStore(reducer);
 
 const root = ReactDOM.createRoot(
